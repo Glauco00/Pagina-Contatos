@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contatos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      display: grid;
+      justify-content: center;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    header {
+      width: 100%;
+      height: 200px;
+      background: #1f661fb6;
+      position: absolute;
+    }
+
+    .logo {
+      position: relative;
+      margin-top: 121.5px;
+      margin-bottom: 12.5px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+    }
+
+    .circulo {
+      display: flex;
+      position: absolute;
+      width: 320px;
+      height: 320px;
+      background-color: #fff;
+      border-radius: 50%;
+      margin-top: -230px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    h1 {
+      font: 400 3.75rem/1.166 "roboto", Arial, Helvetica, sans-serif;
+      color: #adabab67;
+      position: absolute;
+      top: 50vh;
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap;
+    }
+
+    .icon {
+      display: flex;
+      position: absolute;
+      height: 20px;
+      margin-top: 325px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .circulo1 {
+      display: flex;
+      position: absolute;
+      width: 75px;
+      height: 75px;
+      background-color: #1f661fb6;
+      border-radius: 50%;
+      left: 50%;
+      transform: translate(-50%);
+      margin-top: 314px;
+    }
+
+    @media screen and (max-width: 900px) {
+      h1{
+        top: 40vh;
+      }
+
+      .icon{
+        margin-top: 400px;
+      }
+
+      .circulo1{
+        margin-top: 389px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <img class="logo" src="./img/logovinho.png" alt="Logotipo Noz Colab" height="125">
+    <div class="circulo"></div>
+    <div class="circulo1"></div>
+    <div class="texto">
+      <h1>Contato</h1>
+    </div>
+    <div class="icon">
+      <a href="mailto:ig@faeterj-petropolis.edu.br" target="_blank">
+        <img src="img/icons8-nova-mensagem-50.png">
+      </a>
+    </div>
+  </main>
+</body>
+
+</html>
